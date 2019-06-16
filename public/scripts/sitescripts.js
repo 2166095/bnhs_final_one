@@ -814,8 +814,8 @@ if ($('body').is('[class*="student-"]')) {
 
  	var tres_table_2 = $('#treasurer-table-2').DataTable({
  		"initComplete": function (settings, json) {  
- 			$("#treasurer-table-2").wrap("<div style='overflow:auto; width:100%;position:relative;'></div>");            
- 		},
+			$("#treasurer-table-2").wrap("<div style='overflow:auto; width:100%;position:relative;'></div>");            
+		},
  		dom: 'Bfrtip',
  		"columnDefs": [{
  			"targets": [7],
